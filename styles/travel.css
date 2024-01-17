@@ -200,7 +200,9 @@ ul {
 
 }
 
-.about-content { height: 160px;}
+.about-content {
+    height: 160px;
+}
 
 .about-content h2 {
     color: #131318;
@@ -234,7 +236,7 @@ ul {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-   
+
 }
 
 .hotel-content h2 {
@@ -291,9 +293,9 @@ ul {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-     margin: 0 auto;
-     margin-top: 10px;
-    
+    margin: 0 auto;
+    margin-top: 10px;
+
 }
 
 .price-content h2 {
@@ -375,44 +377,43 @@ ul {
 }
 
 .news-img {
-   display: flex;
+  display: flex;
+    position: relative;
     width: 672px;
     height: 422px;
-    flex-shrink: 0;
     border-radius: 16px;
     background: lightgray 50% / cover no-repeat;
 
-   
+
 }
 
 .news-img img {}
 
 .discount {
     width: 324px;
-
+position: absolute;
     height: 120px;
-    transform: rotate(-19.628deg);
-    flex-shrink: 0;
     border-radius: 16px;
     background: #FF5400;
-    margin-top: 200px;
-   
-   
+top: 48%;
+left: 52%;
+transform: rotate(-45deg);
+
 }
 
 .discount h4 {
     color: #FFF;
-    text-align:center;
-    font-size:24px;
-    font-style:normal;
-    font-weight:400;
-    line-height:normal;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .discount h2 {
     color: #FFF;
     text-align: center;
-    font-size: 32px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -469,12 +470,21 @@ footer {
 
 }
 
+.icons i {
+    font-size: 30px;
+    margin-left: 16px;
+}
+
+.icons {
+    margin-top: 30px;
+}
+
 .icon img {
     margin-top: 28px;
 }
 
 hr {
-    margin-top: 140px;
+    margin-top: 90px;
 }
 
 .copyright {

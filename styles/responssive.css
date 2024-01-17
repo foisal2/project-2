@@ -58,6 +58,9 @@
    width: 350px;}
    .hotel-content { margin-top: 35px;}
 
+   .newsletter-container {  flex-direction: column;
+   }  
+
    .letter-content { 
       width: 330px;
       margin-top: 45px;
@@ -69,7 +72,11 @@
    }
    .letter-content button { width: 330px;
    margin-top: 10px;}
-   .news-img img { flex-direction: column;}
+   .news-img { 
+      width: 100%;
+   }
+   .news-img img { width: 380px;
+   height: 200px;}
 
  footer {width: 380px;
 margin-top: 15px;
