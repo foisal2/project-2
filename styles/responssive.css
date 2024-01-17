@@ -23,9 +23,57 @@
         margin: 0 auto;
     }
     .main-container{  
+      width: 100%;
         flex-direction: column;
-        width: 100%;
+       
         
     }
-    .view-container { flex-direction: column;}
+    .text-content h2 { width: 356px;}
+   .text-content p {
+      width:350px;
+   }
+   .text-content ul { width: 300px;}
+
+    .view-container img { display: grid;
+      grid-template-columns: repeat(1,1 fr);
+      width: 350px;
+      
+   }
+   .view-content img { 
+      gap: 10px;
+      margin-top: 10px;
+   }
+
+    .detail { width: 350px;
+   text-align: center;}
+
+
+
+   .about-container div{ display: grid;
+   grid-template-columns: repeat(1, 1 fr);
+   width: 350px;
+   
+   }
+   .about-container div p { text-align: center;
+   width: 350px;}
+   .hotel-content { margin-top: 35px;}
+
+   .letter-content { 
+      width: 330px;
+      margin-top: 45px;
+   }
+   .letter-content input{ 
+      width: 330px;
+      gap: 10px;
+      margin-top: 10px;
+   }
+   .letter-content button { width: 330px;
+   margin-top: 10px;}
+   .news-img img { flex-direction: column;}
+
+ footer {width: 380px;
+margin-top: 15px;
+}
+.footer-container p { width: 350px;}
+
  }

@@ -1,5 +1,6 @@
 * {
     font-family: Mulish;
+    Inter;
 }
 
 header {
@@ -195,11 +196,11 @@ ul {
 .about-container {
     width: 1170px;
     margin: 0 auto;
-    border: 2px solid blueviolet;
-    
+    height: 740px;
+
 }
 
-.about-content {}
+.about-content { height: 160px;}
 
 .about-content h2 {
     color: #131318;
@@ -218,11 +219,14 @@ ul {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    margin: 0 auto;
 }
 
-.flex-content { 
+.flex-content {
     display: flex;
+    gap: 20px;
 }
+
 .hotel-content {
     width: 573px;
     height: 284px;
@@ -230,6 +234,7 @@ ul {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
+   
 }
 
 .hotel-content h2 {
@@ -248,6 +253,7 @@ ul {
     font-weight: 400;
     line-height: 26px;
     width: 486px;
+    margin: 0 auto;
 }
 
 .world-content {
@@ -276,15 +282,18 @@ ul {
     font-weight: 400;
     line-height: 26px;
     width: 486px;
+    margin: 0 auto;
 }
 
 .price-content {
     width: 573px;
     height: 284px;
-    flex-shrink: 0;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+     margin: 0 auto;
+     margin-top: 10px;
+    
 }
 
 .price-content h2 {
@@ -304,6 +313,7 @@ ul {
     font-weight: 400;
     line-height: 26px;
     width: 486px;
+    margin: 0 auto;
 }
 
 
@@ -315,6 +325,9 @@ ul {
     width: 1170px;
     margin: 0 auto;
     display: flex;
+    gap: 10px;
+    height: 500px;
+    margin-top: 15px;
 }
 
 .letter-content {
@@ -337,7 +350,7 @@ ul {
 
 .letter-content p {
     color: #5A5A5D;
-   text-align: center;
+    text-align: center;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -362,31 +375,38 @@ ul {
 }
 
 .news-img {
+   display: flex;
     width: 672px;
     height: 422px;
     flex-shrink: 0;
     border-radius: 16px;
     background: lightgray 50% / cover no-repeat;
+
+   
 }
 
 .news-img img {}
 
 .discount {
     width: 324px;
+
     height: 120px;
     transform: rotate(-19.628deg);
     flex-shrink: 0;
     border-radius: 16px;
     background: #FF5400;
+    margin-top: 200px;
+   
+   
 }
 
 .discount h4 {
     color: #FFF;
-    text-align: center;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    text-align:center;
+    font-size:24px;
+    font-style:normal;
+    font-weight:400;
+    line-height:normal;
 }
 
 .discount h2 {
@@ -398,19 +418,21 @@ ul {
     line-height: normal;
 }
 
-footer { width: 1440px;
+footer {
+    width: 1440px;
     height: 502px;
     flex-shrink: 0;
     background: rgba(19, 19, 24, 0.05);
-margin: 0 auto;}
-
-.footer-container {
+    margin: 0 auto;
+    text-align: center;
 }
+
+.footer-container {}
 
 .footer-container img {
     width: 40px;
     height: 46.673px;
-    
+
 }
 
 .footer-container h3 {
@@ -432,10 +454,37 @@ margin: 0 auto;}
 
 .footer-container p {
     color: #5A5A5D;
-    text-align: center;
-    font-family: Mulish;
+    width: 770px;
+    margin: 0 auto;
+
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon img {
+    margin-top: 28px;
+}
+
+hr {
+    margin-top: 140px;
+}
+
+.copyright {
+    color: #131318;
+    width: 195px;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0 auto;
+    margin-top: 80px;
 }
